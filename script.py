@@ -33,5 +33,6 @@ for link in links:
         
 # Convert the mp4 file to mp3 so that the game can actually scan it
 for song in os.listdir(outputPath):
-    mp4Tomp3(song, song + '.mp3')
+    if(not song.endswith('.mp3')):
+       mp4Tomp3(song, song + '.mp3')
     print(song + ' got converted to MP3!')
