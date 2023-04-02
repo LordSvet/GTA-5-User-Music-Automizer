@@ -14,7 +14,8 @@ HOW TO USE:
     
     3. After that is done and you have your links in your text file you can run the script through your command-line. Example with cmd on windows:
     Open CMD and navigate to the directory where your script is and run the following command:
-        python script.py
+    
+                                        python script.py
 
     And that's all! Enjoy some self radio tunes.
 
